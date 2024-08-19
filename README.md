@@ -144,7 +144,7 @@ If you encounter issues with PowPow, you can troubleshoot common problems by che
 -   Ensure that all paths in your configuration file are correct.
 -   Verify that the required prerequisites (PAC CLI and Node.js) are properly installed.
 
-For additional help or to report bugs, please use the [GitHub Issues](#) page of this repository.
+For additional help or to report bugs, please use the [GitHub Issues](https://github.com/pstevju/powpow/issues) page of this repository.
 
 ## License
 
