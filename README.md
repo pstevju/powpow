@@ -1,5 +1,7 @@
 # PowPow
 
+[![npm version](https://badge.fury.io/js/@pstevju%2Fpowpow.svg)](https://badge.fury.io/js/@pstevju%2Fpowpow)
+
 **PowPow** is a Power Pages pro-code development tool that streamlines the development process by offering code transpilation and a local development server. It aims to reduce development iteration time and enable the use of TypeScript for authoring website code assets.
 
 __Note that this tool is in early development and is not tested for production use. Use at own risk.__
