@@ -1,0 +1,14 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"compilerOptions": {
+		"target": "ES2018",
+		"module": "ES2015",
+		"moduleResolution": "Bundler",
+		"isolatedModules": false,
+		"esModuleInterop": true,
+		"jsx": "react",
+		"skipLibCheck": true,
+		"strict": true,
+		"allowUmdGlobalAccess": true,
+	}
+}

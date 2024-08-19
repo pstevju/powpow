@@ -1,0 +1,10 @@
+{
+	"compilerOptions": {
+		"rootDir": "src",
+		"outDir": "dist",
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext",
+		"typeRoots": ["node_modules/@types", "@types"],
+		"resolveJsonModule": true
+	}
+}

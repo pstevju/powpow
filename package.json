@@ -1,0 +1,57 @@
+{
+	"name": "@pstevju/powpow",
+	"version": "0.2.1",
+	"description": "PowPow is a pro-code development tool for Power Pages with TypeScript transpilation and local development server features.",
+	"author": "Philip Stevju Meidell <philip@mkraft.no>",
+	"license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/pstevju/powpow.git"
+	},
+	"homepage": "https://github.com/pstevju/powpow#readme",
+	"bugs": {
+		"url": "https://github.com/pstevju/powpow/issues"
+	},
+	"scripts": {
+		"build": "tsc",
+		"dev": "tsc --watch",
+		"npm:publish": "npm run build && npm publish"
+	},
+	"main": "dist/powpow.js",
+	"types": "./@types/powpow.d.ts",
+	"bin": {
+		"powpow": "dist/powpow.js"
+	},
+	"files": [
+		"dist",
+		"@types",
+		"README.md",
+		"LICENSE"
+	],
+	"keywords": [
+		"power pages",
+		"power apps",
+		"power platform",
+		"microsoft",
+		"power apps portals",
+		"portals",
+		"typescript",
+		"cli",
+		"development",
+		"dev",
+		"dx"
+	],
+	"peerDependencies": {
+		"chokidar": "^3.6.0",
+		"esbuild": "^0.20.1",
+		"serve": "^14.2.1"
+	},
+	"devDependencies": {
+		"@types/node": "^20.11.24",
+		"@types/serve-handler": "^6.1.4",
+		"typescript": "^5.3.3"
+	},
+	"engines": {
+		"node": ">=14.0.0"
+	}
+}
