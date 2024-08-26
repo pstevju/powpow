@@ -81,6 +81,7 @@ const config = {
 	},
 	typescript: {
 		path: './typescript',
+		minify: false,
 	},
 	devServer: {
 		enabled: true,

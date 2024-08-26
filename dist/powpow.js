@@ -30,6 +30,7 @@ const config = {
 	},
 	typescript: {
 		path: './typescript',
+		minify: false,
 	},
 	devServer: {
 		enabled: true,
@@ -144,6 +145,7 @@ async function processBuild() {
     }
     const devConditionBanner = `/* {%- unless ${config.typescript.devConditionInjection ?? `request.params['dev'] == 'true'`} -%} */\n`;
     const devConditionFooter = `\n/* {%- endunless -%} */`;
+    const shouldMinify = !!config?.typescript?.minify;
     // TODO: Inject dev server script.
     async function build(entryPoint) {
         console.log(`🔨 Build started:\n\t\u2192 ${(0, node_path_1.relative)(process.cwd(), entryPoint)}\n`);
@@ -194,7 +196,7 @@ async function processBuild() {
                 entryPoints: [entryPoint],
                 outfile: targetPath,
                 bundle: true,
-                minify: true,
+                minify: shouldMinify,
                 target: 'es2015',
                 format: 'iife',
                 banner: {

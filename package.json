@@ -1,6 +1,6 @@
 {
 	"name": "@pstevju/powpow",
-	"version": "0.2.1",
+	"version": "0.2.2",
 	"description": "PowPow is a pro-code development tool for Power Pages with TypeScript transpilation and local development server features.",
 	"author": "Philip Stevju Meidell <philip@mkraft.no>",
 	"license": "ISC",

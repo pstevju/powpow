@@ -46,4 +46,11 @@ export type TypeScriptConfig = {
 	 * Optional injection of liquid code for handling dev mode.
 	 */
 	devConditionInjection?: string;
+
+	/**
+	 * Whether the TypeScript source should be minified.
+	 * 
+	 * @default false
+	 */
+	minify?: boolean;
 };
